@@ -38,7 +38,7 @@ body {
 .section1 > .container1 .header-links {
   display: inline-flex;
   gap: 40px;
-  margin-left: 500px;
+  margin-left: 350px;
   justify-content: center;
   align-items: center;
 }
@@ -91,4 +91,72 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 160%;
+}
+
+.container3 {
+  position: relative;
+  padding-left: 95px;
+  width: 1440px;
+  height: 480px;
+}
+
+.container3 .button-wrapper {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  top: 10px;
+}
+
+.get-started {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  background: #4891ff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.button-book {
+  position: relative;
+}
+
+.button-book > .book-img {
+  width: 16px;
+  height: 20px;
+
+  position: absolute;
+  left: 11px;
+  top: 15px;
+}
+
+.button-book > .book {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  background: #f5f5f5;
+}
+
+.teamcapodopera {
+  width: 612px;
+  height: 272px;
+  position: relative;
+  top: 102px;
+  margin-right: 24px;
+}
+
+.diagram {
+  position: relative;
+  top: 34px;
+  margin-right: 23px;
 }
